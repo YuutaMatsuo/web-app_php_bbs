@@ -1,5 +1,5 @@
 # イメージを取得
-FROM php:8.3.2-fpm
+FROM 8.3.3-apache-bullseye
 # 独自のphp.iniファイル(PHPの設定ファイル)を 
 # コンテナ内の/usr/local/etc/php/ディレクトリにコピー
 COPY php.ini /usr/local/etc/php/
