@@ -73,7 +73,6 @@ $pdo = null;
 
 <body>
   <h1 class="title">掲示板アプリ</h1>
-  <p>PHPを用いて作成した掲示板アプリです。</p>
   <hr>
   <div class="boardWrapper">
     <section>
