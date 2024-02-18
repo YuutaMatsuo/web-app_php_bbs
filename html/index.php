@@ -10,7 +10,7 @@ $error_message = array();
 
 // DB接続
 try {
-  $pdo = new PDO('pgsql:dbname=php-docker-db host=postgres port=5432', "postgres", "root");
+  $pdo = new PDO('pgsql:dbname=postgres_db_yztc host=dpg-cn8opo0cmk4c739s8ig0-a port=5432', "render", "GwHkVIfxFzKuRfT26uTbVLphSw6IpmcU");
 } catch (PDOException $e) {
   echo $e->getMessage();
 }
