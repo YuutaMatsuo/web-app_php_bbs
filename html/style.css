@@ -59,21 +59,8 @@ section .comment {
 }
 
 @media (max-width: 768px) {
-  body {
-    background-color: #c6daf1; /* スマホ表示時の背景色を調整 */
-  }
-
-  .title {
-    font-size: 24px; /* タイトルのフォントサイズを小さく */
-  }
-
   .commentTextArea {
     width: 100%; /* コメント入力エリアの幅を画面幅に合わせる */
     height: 80px; /* 高さを少し調整 */
-  }
-
-  .nameArea {
-    flex-direction: column; /* 名前と日付を縦に並べる */
-    align-items: flex-start; /* 左揃えにする */
   }
 }
