@@ -59,6 +59,11 @@ section .comment {
 }
 
 @media (max-width: 768px) {
+  
+  input[type="text"] {
+    font-size: 16px;
+  }
+
   .commentTextArea {
     width: 100%; /* コメント入力エリアの幅を画面幅に合わせる */
     height: 80px; /* 高さを少し調整 */
