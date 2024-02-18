@@ -82,7 +82,7 @@ $pdo = null;
         <article>
           <div class="wrapper">
             <div class="nameArea">
-              <span>名前：</span>
+              <span><?php echo $comment["id"] ?> 名前：</span>
               <p class="username"><?php echo $comment["username"]; ?></p>
               <time>:<?php echo $comment["postdate"]; ?></time>
             </div>
