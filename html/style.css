@@ -60,18 +60,11 @@ section .comment {
 
 @media (max-width: 768px) {
   body {
-    background-color: #e6e6e6; /* スマホ表示時の背景色を調整 */
+    background-color: #c6daf1; /* スマホ表示時の背景色を調整 */
   }
 
   .title {
     font-size: 24px; /* タイトルのフォントサイズを小さく */
-  }
-
-  .boardWrapper,
-  .formWrapper {
-    max-width: 100%; /* コンテンツの最大幅を画面幅に合わせる */
-    margin: 0 10px; /* 画面の端に少し余白を持たせる */
-    padding: 10px; /* パディングを調整 */
   }
 
   .commentTextArea {
