@@ -4,6 +4,9 @@ FROM php:8.3.3-apache
 # 独自のphp.iniファイル(PHPの設定ファイル)をコンテナ内の/usr/local/etc/php/ディレクトリにコピー
 COPY php.ini /usr/local/etc/php/
 
+# プロジェクトのhtmlディレクトリの内容をコンテナ内の/var/www/htmlにコピー
+COPY html/ /var/www/html/
+
 # apache-config.confをコンテナの適切な場所にコピー
 COPY apache-config.conf /etc/apache2/sites-available/000-default.conf
 
