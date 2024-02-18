@@ -57,3 +57,39 @@ section .comment {
   width: 500px;
   height: 90px;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-color: #e6e6e6; /* スマホ表示時の背景色を調整 */
+  }
+
+  .title {
+    font-size: 24px; /* タイトルのフォントサイズを小さく */
+  }
+
+  .boardWrapper,
+  .formWrapper {
+    max-width: 100%; /* コンテンツの最大幅を画面幅に合わせる */
+    margin: 0 10px; /* 画面の端に少し余白を持たせる */
+    padding: 10px; /* パディングを調整 */
+  }
+
+  .commentTextArea {
+    width: 100%; /* コメント入力エリアの幅を画面幅に合わせる */
+    height: 80px; /* 高さを少し調整 */
+  }
+
+  section .nameArea,
+  section .comment {
+    margin-left: 0; /* 左マージンを削除し、テキストが端に寄るのを防ぐ */
+  }
+
+  .nameArea {
+    flex-direction: column; /* 名前と日付を縦に並べる */
+    align-items: flex-start; /* 左揃えにする */
+  }
+
+  .comment {
+    margin-top: 10px; /* コメントのマージンを調整 */
+  }
+}
